@@ -3,13 +3,16 @@ requires = ["setuptools>=64"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "sofi-explainer"
+name = "sofi-tabular"
 version = "1.0.0"
 description = "Sparseness Optimized Feature Importance, a post hoc explainer for classification and regression"
 readme = "README.md"
 requires-python = ">=3.9"
 license = { file = "LICENSE" }
-authors = [{ name = "Isel Grau" }, { name = "Gonzalo Napoles" }]
+authors = [
+    { name = "Isel Grau", email = "i.d.c.grau.garcia@tue.nl" },
+    { name = "Gonzalo Napoles", email = "g.r.napoles@tilburguniversity.edu" },
+]
 keywords = ["explainable ai", "feature importance", "interpretability", "sparsity"]
 classifiers = [
     "Intended Audience :: Science/Research",

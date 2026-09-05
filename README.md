@@ -5,24 +5,30 @@ Sparseness Optimized Feature Importance (SOFI) is a model agnostic, declarative 
 ## Installation
 
 ```bash
-git clone https://github.com/<user>/sofi.git
-cd sofi
-pip install -e .
+pip install sofi-tabular
 ```
 
 The package requires Python 3.9 or later, together with `numpy`, `pandas` and `scikit-learn`,
-which is all `pip install -e .` pulls in. Three pieces are optional and installed through
-extras declared in `pyproject.toml`:
+which is all `pip install sofi-tabular` pulls in. Plotting, progress bars and the demo are
+optional extras declared in `pyproject.toml`:
 
 ```bash
-pip install -e ".[plot]"      # matplotlib and seaborn, needed by explanation.plot()
-pip install -e ".[progress]"  # tqdm, needed for progress bars
-pip install -e ".[demo]"      # everything above, plus what SOFI_demo.ipynb needs to run
+pip install "sofi-tabular[plot]"      # matplotlib and seaborn, needed by explanation.plot()
+pip install "sofi-tabular[progress]"  # tqdm, needed for progress bars
+pip install "sofi-tabular[demo]"      # everything above, plus what SOFI_demo.ipynb needs to run
 ```
 
 Progress bars need `tqdm`, figures need `matplotlib`, and `seaborn` is used only to fix the
 font of a session. `requirements.txt` pins all of them together for a quick `pip install -r
 requirements.txt` when the distinction does not matter.
+
+To install the development version from GitHub:
+
+```bash
+git clone https://github.com/igraugar/sofi.git
+cd sofi
+pip install -e ".[demo]"
+```
 
 ## Quick start
 

@@ -1,6 +1,6 @@
 # Sparseness Optimized Feature Importance
 
-Sparseness Optimized Feature Importance (SOFI) is a model agnostic, declarative post hoc explainer. An explanation takes the form of a ranking of features, and its quality is the degradation score obtained after cumulative marginalization. The implementation supports classification and regression, operates at the instance level or over a whole dataset, and marginalizes one-hot encoded features as indivisible blocks.
+Sparseness Optimized Feature Importance (SOFI) is a model-agnostic, declarative post hoc explainer. An explanation takes the form of a ranking of features, and its quality is the degradation score obtained after cumulative marginalization. The implementation supports classification and regression, operates at the instance level or over a whole dataset, and marginalizes one-hot encoded features as indivisible blocks.
 
 ## Installation
 
@@ -398,13 +398,13 @@ cover the ordinary usage.
   doi       = {10.1007/978-3-031-63797-1_20}
 }
 
-@article{grau2026sofits,
-  title   = {Sparseness-Optimized Feature Importance for Time Series Classification},
-  author  = {Grau, Isel and N{\'a}poles, Gonzalo and Jastrzebska, Agnieszka and Salgueiro, Yamisleydi},
-  journal = {IEEE Access},
-  volume  = {14},
-  pages   = {29874--29893},
-  year    = {2026}
+@article{napoles2026sparseness,
+  title={Sparseness-optimized feature importance with prior knowledge and reinforcement learning-powered optimization},
+  author={N{\'a}poles, Gonzalo and Grau, Isel and Salgueiro, Yamisleydi},
+  journal={Neurocomputing},
+  pages={132925},
+  year={2026},
+  publisher={Elsevier}
 }
 ```
 

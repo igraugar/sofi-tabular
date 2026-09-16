@@ -25,7 +25,7 @@ requirements.txt` when the distinction does not matter.
 To install the development version from GitHub:
 
 ```bash
-git clone https://github.com/igraugar/sofi.git
+git clone https://github.com/igraugar/sofi-tabular.git
 cd sofi
 pip install -e ".[demo]"
 ```
